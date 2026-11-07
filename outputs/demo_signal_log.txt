@@ -1,0 +1,29 @@
+data: 40 tickers, 2015-03-31 -> 2026-10-30
+panel: 140 monthly decision dates, 33 investable names now
+learning (walk-forward) ...
+  epoch 1/31 2019-04-30: alive=3 conviction=7% new=3 retired_total=0
+  epoch 5/31 2020-04-30: alive=8 conviction=44% new=3 retired_total=7
+  epoch 9/31 2021-04-30: alive=8 conviction=62% new=3 retired_total=19
+  epoch 13/31 2022-04-29: alive=8 conviction=94% new=3 retired_total=31
+  epoch 17/31 2023-04-28: alive=8 conviction=79% new=3 retired_total=43
+  epoch 21/31 2024-04-30: alive=8 conviction=82% new=3 retired_total=55
+  epoch 25/31 2025-04-30: alive=8 conviction=83% new=3 retired_total=67
+  epoch 29/31 2026-04-30: alive=8 conviction=100% new=3 retired_total=79
+  epoch 31/31 2026-10-30: alive=8 conviction=100% new=3 retired_total=85
+
+OOS 2019-04-30 -> 2026-09-30  (90 months)
+  adaptive CAGR 38.1%  benchmark 27.1%  excess/yr +9.3%  IR 0.82  p=0.007
+  evidence: MODERATE EVIDENCE
+
+current portfolio (top):
+ticker  target_weight  exp_3m_return  p_beat_tbill confidence
+   S30          0.224          0.168         0.768     MEDIUM
+   S38          0.220          0.187         0.739     MEDIUM
+   S16          0.220          0.166         0.839     MEDIUM
+   S08          0.211          0.148         0.728     MEDIUM
+   S18          0.031          0.127         0.750     MEDIUM
+   S24          0.020          0.118         0.591     MEDIUM
+   S07          0.018          0.051         0.478     MEDIUM
+   S10          0.012          0.096         0.593     MEDIUM
+
+report: /home/claude/nse_ai_project/outputs/demo_signal/report.html

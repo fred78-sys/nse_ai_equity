@@ -1,0 +1,29 @@
+data: 40 tickers, 2015-03-31 -> 2026-10-30
+panel: 140 monthly decision dates, 23 investable names now
+learning (walk-forward) ...
+  epoch 1/31 2019-04-30: alive=3 conviction=0% new=3 retired_total=0
+  epoch 5/31 2020-04-30: alive=8 conviction=0% new=3 retired_total=7
+  epoch 9/31 2021-04-30: alive=8 conviction=1% new=3 retired_total=19
+  epoch 13/31 2022-04-29: alive=8 conviction=3% new=3 retired_total=31
+  epoch 17/31 2023-04-28: alive=8 conviction=47% new=3 retired_total=43
+  epoch 21/31 2024-04-30: alive=8 conviction=28% new=3 retired_total=55
+  epoch 25/31 2025-04-30: alive=8 conviction=12% new=3 retired_total=67
+  epoch 29/31 2026-04-30: alive=8 conviction=9% new=3 retired_total=79
+  epoch 31/31 2026-10-30: alive=8 conviction=3% new=3 retired_total=85
+
+OOS 2019-04-30 -> 2026-09-30  (90 months)
+  adaptive CAGR 7.8%  benchmark 8.4%  excess/yr -0.6%  IR -0.24  p=0.732
+  evidence: NO DEMONSTRATED EDGE
+
+current portfolio (top):
+ticker  target_weight  exp_3m_return  p_beat_tbill       confidence
+   S31          0.050          0.032         0.478 LOW (index-like)
+   S20          0.049          0.032         0.489 LOW (index-like)
+   S25          0.048          0.032         0.461 LOW (index-like)
+   S14          0.047          0.032         0.483 LOW (index-like)
+   S09          0.045          0.032         0.449 LOW (index-like)
+   S02          0.044          0.032         0.487 LOW (index-like)
+   S35          0.043          0.031         0.486 LOW (index-like)
+   S03          0.043          0.032         0.464 LOW (index-like)
+
+report: /home/claude/nse_ai_project/outputs/demo_placebo/report.html
